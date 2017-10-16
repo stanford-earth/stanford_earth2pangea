@@ -1,0 +1,7 @@
+stanford_earth2pangea.content:
+  path: '/redirect2pangea' 
+  defaults: 
+    _controller: '\Drupal\stanford_earth2pangea\Controller\StanfordEarth2PangeaController::content' 
+    _title: 'Redirect to pangea.stanford.edu'
+  requirements: 
+    _permission: 'access content'
