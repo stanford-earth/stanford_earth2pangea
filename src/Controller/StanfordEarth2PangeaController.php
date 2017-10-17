@@ -16,15 +16,8 @@ class StanfordEarth2PangeaController extends ControllerBase {
   public function content() {
 
     $url = 'https://pangea.stanford.edu'.$_SERVER['REQUEST_URI'];
-    $build = array(
-      '#type' => 'markup',
-      '#markup' => t('Redirecting to: '.$url),
-    );
     $response = new TrustedRedirectResponse($url);
-    $xyz = print_r($this,true);
-    \Drupal::logger('stanford_earth2pangea')->notice('buh?: <pre>'.$xyz.'</pre>');
-    //return $build;
     $response->send();
-    return $response;
+    //return $response;
   }
 }
