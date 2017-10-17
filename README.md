@@ -1,7 +1,7 @@
 # [Stanford Earth2Pangea](https://github.com/stanford-earth/stanford_earth2pangea)
 ##### Version: 8.x-1.x
 
-Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama)  
+Maintainers: [ksharp](https://github.com/ksharp-drupal)
 
 Changelog: [Changelog.txt](CHANGELOG.txt)
 
