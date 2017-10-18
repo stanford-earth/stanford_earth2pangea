@@ -15,7 +15,7 @@ class StanfordEarth2PangeaController extends ControllerBase {
    */
   public function content() {
 
-    $url = 'https://pangea.stanford.edu'.$_SERVER['REQUEST_URI'];
+    $url = 'https://pangea.stanford.edu'. $_SERVER['REQUEST_URI'];
     $response = new TrustedRedirectResponse($url);
     $response->send();
     //return $response;
