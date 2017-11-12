@@ -5,3 +5,5 @@ stanford_earth2pangea.content:
     _title: 'Redirect to pangea.stanford.edu'
   requirements: 
     _permission: 'access content'
+  options:
+    no_cache: TRUE
