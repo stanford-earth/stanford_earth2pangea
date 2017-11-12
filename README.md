@@ -1,5 +1,5 @@
 # [Stanford Earth2Pangea](https://github.com/stanford-earth/stanford_earth2pangea)
-##### Version: 8.x-1.x-alpha4
+##### Version: 8.x-1.x-dev
 
 Maintainers: [ksharp](https://github.com/ksharp-drupal)
 
