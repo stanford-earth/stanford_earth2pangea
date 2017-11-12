@@ -1,4 +1,12 @@
 # Stanford Earth 2 Pangea
+8.x-1.0-alpha5
+--------------------------------------------------------------------------------
+_Release Date: 2017-11-12_
+
+Puts no-cache option back in stanford_earth2pangea.routing.yml.
+Changes response code back to 302 TrustedRedirectResponse in case page moves to earth in future.
+Adds \Drupal::service('page_cache_kill_switch')->trigger() to Controller to keep redirect from anonymous Drupal cache.;
+
 8.x-1.0-alpha4
 --------------------------------------------------------------------------------
 _Release Date: 2017-11-12_
